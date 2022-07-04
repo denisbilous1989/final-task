@@ -1,0 +1,211 @@
+.picture-section {
+  color: $main-color;
+  padding: 45px 0 0 0;
+  margin: 0 -15px;
+
+  @media (min-width:768px) {
+    margin: 0 -60px;
+  }
+
+  @media (min-width:1440px) {
+    padding: 50px 0 0 0;
+    margin: 0 -30px;
+  }
+
+  @media (min-width:1920px) {
+    margin: 0 -45px;
+    padding: 50px 0 60px 0;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: $base_font_size - 2px;
+    line-height: calc(17 / 14);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .pictures {
+    padding: 15px 0 0 0;
+
+    @media (min-width:768px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width:992px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    &__item {
+      text-align: center;
+      transition: all 0.5s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+
+      &:first-child {
+        padding: 36px 19px 36px 20px;
+        background: #1C4280;
+
+        @media (min-width:1440px) {
+          padding: 36px 71px 36px 72px;
+        }
+      }
+
+      &:nth-child(2) {
+        padding: 44px 28px 44px 29px;
+        background: #143646;
+
+        @media (min-width:1440px) {
+          padding: 44px 80px 44px 81px;
+        }
+      }
+
+      &:nth-child(3) {
+        padding: 38px 38px 38px 39px;
+        background: #F48B30;
+
+        @media (min-width:1440px) {
+          padding: 38px 90px 38px 91px;
+        }
+      }
+
+      &:nth-child(4) {
+        padding: 39px 38px;
+        background: #9E4DC3;
+
+        @media (min-width:1440px) {
+          padding: 39px 90px;
+        }
+      }
+
+      &:nth-child(5) {
+        padding: 38px 41px;
+        background: #FD9339;
+
+        @media (min-width:1440px) {
+          padding: 38px 93px;
+        }
+      }
+
+      &:nth-child(6) {
+        padding: 36px 61px 36px 62px;
+        background: #E2E2E4;
+
+        @media (min-width:1440px) {
+          padding: 36px 86px 36px 87px;
+        }
+
+        .picture-big {
+
+          @media (min-width:768px) {
+            display: none;
+          }
+
+          @media (min-width:992px) {
+            display: block;
+          }
+        }
+
+        .picture-small {
+          display: none;
+
+          @media (min-width:768px) {
+            display: block;
+          }
+
+          @media (min-width:992px) {
+            display: none;
+          }
+        }
+      }
+
+      &:nth-child(7) {
+        padding: 29px 59px 30px 59px;
+        background: #C71C36;
+        display: none;
+
+        @media (min-width:768px) {
+          display: block;
+        }
+
+        @media (min-width:1440px) {
+          padding: 29px 111px 30px 111px;
+        }
+       }
+      
+
+      &:nth-child(8) {
+        padding: 22px 55px;
+        background: #DCF3F9;
+        display: none;
+
+        @media (min-width:768px) {
+          display: block;
+        }
+
+        @media (min-width:1440px) {
+          padding: 22px 107px;
+        }
+      }
+
+      &:nth-child(9) {
+        padding: 30px 37px;
+        background: #EAEAEA;
+        display: none;
+
+        @media (min-width:768px) {
+          display: block;
+        }
+
+        @media (min-width:1440px) {
+          padding: 30px 89px;
+        }
+      }
+
+      &:nth-child(10) {
+        padding: 41px 37px 41px 38px;
+        background: #282240;
+        display: none;
+
+        @media (min-width:768px) {
+          display: block;
+        }
+
+        @media (min-width:1440px) {
+          padding: 41px 89px 41px 90px;
+        }
+      }
+
+      &:nth-child(11) {
+        padding: 37px 33px 37px 34px;
+        background: #1D4568;
+        display: none;
+
+        @media (min-width:768px) {
+          display: block;
+        }
+
+        @media (min-width:1440px) {
+          padding: 37px 85px 37px 86px;
+        }
+      }
+
+      &:last-child {
+        padding: 13px 52px 12px 52px;
+        background: $black;
+        display: none;
+
+        @media (min-width:768px) {
+          display: block;
+        }
+
+        @media (min-width:1440px) {
+          padding: 13px 104px 12px 104px;
+        }
+      }
+    }
+  }
+}

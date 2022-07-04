@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../fonts/Montserrat-Regular.woff2') format('woff2'),
+      url('../../fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../fonts/Montserrat-Bold.woff2') format('woff2'),
+      url('../../fonts/Montserrat-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/icomoon.eot?z06sdo');
+  src:  url('../../fonts/icomoon.eot?z06sdo#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?z06sdo') format('truetype'),
+    url('../../fonts/icomoon.woff?z06sdo') format('woff'),
+    url('../../fonts/icomoon.svg?z06sdo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Slash:before {
+  content: "\e910";
+}
+.icon-icon-1 .path1:before {
+  content: "\e902";
+  color: rgb(0, 0, 0);
+}
+.icon-icon-1 .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-icon-1 .path3:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon-2 .path1:before {
+  content: "\e905";
+  color: rgb(255, 255, 255);
+}
+.icon-icon-2 .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-icon-2 .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-icon-2 .path4:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-icon-2 .path5:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-icon-3:before {
+  content: "\e90a";
+}
+.icon-icon-4:before {
+  content: "\e90b";
+}
+.icon-icon-5:before {
+  content: "\e90c";
+}
+.icon-icon-6:before {
+  content: "\e90d";
+}
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-cheveron-down:before {
+  content: "\e90f";
+}
+.icon-cheveron-right:before {
+  content: "\e901";
+}

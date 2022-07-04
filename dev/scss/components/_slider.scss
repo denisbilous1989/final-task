@@ -1,0 +1,141 @@
+.slider {
+  padding: 0 15px;
+
+  @media (min-width:768px) {
+    padding: 0;
+  }
+
+  @media (min-width:992px) {
+    display: flex;
+  }
+
+  &__content {
+    border-top: 4px solid rgba(255, 255, 255, 0.3);
+    padding: 30px 0 0 0;
+    font-size: $base_font_size + 3;
+    line-height: calc(30 / 19);
+
+    @media (min-width:768px) {
+      padding: 60px 0 30px 0;
+    }
+
+    @media (min-width:992px) {
+      border: none;
+      border-left: 4px solid rgba(255, 255, 255, 0.3);
+      padding: 0 0 0 60px;
+      margin: 0 0 0 -3px;
+    }
+
+    @media (min-width:1440px) {
+      padding: 0 150px 0 60px;
+    }
+
+    @media (min-width:1920px) {
+      padding: 32px 150px 0 60px;
+    }
+
+    h3 {
+      margin: 0 0 30px 0;
+      font-size: $base_font_size + 4px;
+      line-height: calc(25 / 20);
+
+      @media (min-width:768px) {
+        font-size: $base_font_size + 14px;
+      }
+
+      @media (min-width:992px) {
+        margin: 19px 0 30px 0;
+      }
+
+      @media (min-width:1440px) {
+        margin: 52px 0 30px 0;
+      }
+    }
+
+    p {
+      @media (min-width:992px) {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.list {
+  margin: 0 0 18px 0;
+  width: calc(100% + 30px);
+  display: flex;
+  overflow: auto;
+  color: $white;
+  font-weight: $big_font_weight;
+  font-size: $base_font_size + 14px;
+  line-height: calc(37 / 30);
+
+  @media (min-width:768px) {
+    font-size: $base_font_size + 22px;
+    margin: 0 0 55px 0;
+  }
+
+  @media (min-width:992px) {
+    display: block;
+    overflow: visible;
+    text-align: right;
+    width: 438px;
+    min-width: 438px;
+    padding-right: 64px;
+    margin: 0;
+  }
+
+  @media (min-width:1440px) {
+    width: 588px;
+    min-width: 588px;
+  }
+
+  @media (min-width:1920px) {
+    width: 573px;
+    min-width: 573px;
+  }
+
+  a {
+    color: $grey-text;
+    transition: all 0.5s;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+   &__item {
+    white-space: nowrap;
+    padding: 10px 15px;
+
+    @media (min-width:768px) {
+      padding: 4px 15px;
+    }
+
+    @media (min-width:992px) {
+      white-space: normal;
+      padding: 0;
+      margin: 0 0 29px -5px;
+    }
+
+    &:first-child {
+      background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+      padding-left: 0;
+
+      @media (min-width:992px) {
+        padding-top: 24px;
+      }
+    }
+
+    &:last-child {
+      padding-right: 30px;
+
+      @media (min-width:992px) {
+        padding-right: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

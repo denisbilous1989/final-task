@@ -1,0 +1,31 @@
+.slick-dots {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 20px;
+
+  @media (min-width:768px) {
+    margin-top: 15px;
+  }
+
+  @media (min-width:992px) {
+    margin-top: 3px;
+  }
+
+  >li {
+    padding: 0 7px;
+  }
+
+  button, [type=button] {
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    background: $active-regular;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.2;
+
+    @media (min-width:768px) {
+      margin-top: 25px;
+    }
+  }
+}

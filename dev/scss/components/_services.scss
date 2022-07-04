@@ -1,0 +1,67 @@
+.servisec {
+  padding: 0 15px;
+  font-weight:$big_font_weight; 
+  font-size: $base_font_size - 2px;
+  line-height: calc(17 / 14);
+  color: $active-regular;
+
+  @media (min-width:768px) {
+    padding: 0;
+  }
+
+  @media (min-width:992px) {
+    padding: 57px 0 0 0;
+  }
+
+  @media (min-width:1440px) {
+    padding: 62px 30px 0 30px;
+  }
+
+  @media (min-width:1920px) {
+    padding: 65px 30px 0 15px;
+  }
+
+
+
+  >p {
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 10px 0;
+    transition: all 0.5s;
+
+    &::after {
+      content: '\e901';
+      font-family: 'icomoon';
+      font-weight:$base_font_weight;
+      transition: all 0.5s;
+    }
+
+    &:hover {
+      color: $accent-color;
+    }
+
+    &:hover a {
+      color: $accent-color;
+    }
+  }
+
+  a {
+    color: $active-regular;
+    transition: all 0.5s;
+  }
+
+  h2 {
+    font-size: $base_font_size + 14px;
+    line-height: calc(37 / 30);
+    text-align: left;
+    margin: 0;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media (min-width:768px) {
+      font-size: $base_font_size + 22px;
+    }
+  }
+}
