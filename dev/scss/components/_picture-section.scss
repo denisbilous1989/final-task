@@ -48,6 +48,7 @@
       &:first-child {
         padding: 36px 19px 36px 20px;
         background: #1C4280;
+        border-radius: 12px 0 0 0;
 
         @media (min-width:1440px) {
           padding: 36px 71px 36px 72px;
@@ -75,6 +76,7 @@
       &:nth-child(4) {
         padding: 39px 38px;
         background: #9E4DC3;
+        border-radius: 0 12px 0 0;
 
         @media (min-width:1440px) {
           padding: 39px 90px;
@@ -155,6 +157,7 @@
         padding: 30px 37px;
         background: #EAEAEA;
         display: none;
+        border-radius: 0 0 0 12px;
 
         @media (min-width:768px) {
           display: block;
@@ -197,6 +200,7 @@
         padding: 13px 52px 12px 52px;
         background: $black;
         display: none;
+        border-radius: 0 0 12px 0;
 
         @media (min-width:768px) {
           display: block;

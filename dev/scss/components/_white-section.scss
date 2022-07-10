@@ -38,7 +38,12 @@
     }
 
     &__visual {
+      width: 100%;
       padding: 0 !important;
+
+      img {
+        width: 100%;
+      }
 
       .mobile {
         @media (min-width:768px) {
